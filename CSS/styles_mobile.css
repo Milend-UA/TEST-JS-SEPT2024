@@ -1,0 +1,26 @@
+/* Мобильная адаптация для экрана до 480px */
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 10px;
+        height: 100%;
+    }
+    h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .container1 {
+        width: 100%;
+        height: auto;
+    }
+    input, textarea, button {
+        max-width: 100%;
+        width: 100%;
+    }
+    .container2 {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .container3 {
+        gap: 15px;
+    }
+}

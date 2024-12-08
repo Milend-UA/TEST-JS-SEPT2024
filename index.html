@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/styles_mobile.css">
+    <link rel="stylesheet" href="CSS/styles_tablet.css">
+</head>
+<body>
+<div class="wrapper">
+    <h2>Test</h2>
+    <div class="container1">
+
+        <label for="inputPair">Name/Value Pair</label>
+        <input type="text" id="inputPair" placeholder="Name=Value">
+        <button id="addBtn">Add</button>
+
+        <label for="list">Name/Value Pair List</label>
+        <div class="container2">
+            <textarea id="list" readonly></textarea>
+            <div class="container3">
+                <button id="sortByName">Sort by Name</button>
+                <button id="sortByValue">Sort by Value</button>
+                <button id="deleteSelected">Delete</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
